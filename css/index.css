@@ -1,7 +1,4 @@
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
 
 .odd {
     background-color: #fffaaa;
@@ -17,17 +14,15 @@
 }
 
 @media only screen and (min-width: 601px) {
-    .one-third {
-        width: 33.33333%;
+    .one-fifth {
+        width: 20.00%;
     }
 }
 
 .container {
-    content: "";
-    display: -webkit-box;
+    display: block;
     clear: both;
     padding: 0.01em 16px;
-    display: -ms-grid;
     background-color: #00A111 !important;
     color: #000 !important;
     width: 100%;
@@ -124,7 +119,17 @@ button:hover {
 }
 
 .home {
+    display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-decoration: none;
+    left: 60px;
 }
+
+.home:hover{
+   color: #ffFD23;
+}
+
+/*.container>p{
+    display: block;
+}*/
