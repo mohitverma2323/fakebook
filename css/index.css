@@ -1,0 +1,133 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.odd {
+    background-color: #fffaaa;
+}
+
+.even {
+    background-color: #ffFD23;
+}
+
+.one-third {
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+    .one-third {
+        width: 33.33333%;
+    }
+}
+
+.container {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0.01em 16px;
+    color: #000 !important;
+    background-color: #ff9800 !important;
+    width: 100%;
+}
+
+.row-padding>.one-third {
+    padding: 0 8px;
+}
+
+.row-padding {
+    display: inline;
+}
+
+.canvas-25 {
+    border: 1px
+     solid #000000;
+    height: 25%;
+    width: 25%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #9DA050;}
+
+ul.topnav ul.right {
+    float: right;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav ul.right, 
+    ul.topnav li {float: none;}
+}
+
+li {
+    float: left;
+     border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+button:hover {
+    border-style: groove;
+    border-color: coral;
+}
+
+.active {
+    background-color: #9DA050;
+}
+
+.text-box-round{
+    -webkit-box-align: center;
+    border-radius: 2px;
+    height: 30px;
+    width: 800px;
+    position: absolute;
+    left: 20em;
+    display: table;
+}
+#Ylink{
+    position: relative;
+    top: 2em;
+    left: 20em;
+    border-radius: 5px;
+    fill: darkslategrey;
+    background-color: darkslategrey;
+}
+#Ylink:hover {
+    background-color: #a9a9a9;
+}
