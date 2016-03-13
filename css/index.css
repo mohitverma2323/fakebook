@@ -1,135 +1,161 @@
 
-
-.odd {
-    background-color: #fffaaa;
-}
-
-.even {
-    background-color: #ffFD23;
-}
-
-.one-third {
-    float: left;
-    width: 100%;
-}
-
-@media only screen and (min-width: 601px) {
-    .one-fifth {
-        width: 20.00%;
-    }
-}
-
 .container {
-    display: block;
+   display:block;
     clear: both;
     padding: 0.01em 16px;
-    background-color: #00A111 !important;
+    background-color: #28d !important;
     color: #000 !important;
     width: 100%;
     height: 100px;
 }
 
-.row-padding>.one-third {
-    padding: 0 8px;
-}
-
-.row-padding {
-    display: inline;
-}
-
-.canvas-25 {
-    border: 1px
-     solid #000000;
-    height: 25%;
-    width: 25%;
-}
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #9DA050;}
-
-ul.topnav ul.right {
-    float: right;
-    list-style-type: none;
-}
-
-@media screen and (max-width: 600px){
-    ul.topnav ul.right, 
-    ul.topnav li {float: none;}
-}
-
-li {
-    float: left;
-     border-right: 1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-
-li a:hover {
-    background-color: #111;
-}
-
-button:hover {
-    border-style: groove;
-    border-color: coral;
-}
-
-.active {
-    background-color: #9DA050;
-}
-
-.text-box-round{
-    -webkit-box-align: center;
-    border-radius: 2px;
-    height: 30px;
-    width: 800px;
-    position: absolute;
-    left: 20em;
-    display: table;
-}
-
 .home {
     display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff !important;
     font-size: 20px;
     text-decoration: none;
     left: 60px;
 }
 
 .home:hover{
-   color: #ffFD23;
+   color: #111;
+}
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+.menu-wrap {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+ 
+.menu {
+    
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    /*color:#919191;*/
+    color: #111;
+}
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    box-shadow: 25px;
+}
+ .menu > ul > .current-item > a {
+    /*background:#2e2728;*/
+    background: burlywood;
+}
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background: #28d;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    /*background:#3e3436;*/
+    background: burlywood;
+}
+.friend-panel {
+    
+  width: 600px;
+  margin: 16px auto;
+  font-size: 16px;
+  margin-bottom: 50px;
+  background: #ebebeb;
+  padding: 10px;
+  overflow-y: scroll;
+  height: 200px;
 }
 
-/*.container>p{
-    display: block;
-}*/
+.friends-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; 
+   position: relative;
+    top: 25px;
+  width: 600px;
+  margin: 16px auto;
+  font-size: 16px;
+  margin-top: 60px;
+  padding: 10px;
+  
+}
+
+.friends-list{
+   list-style-type: decimal;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 3em;
+}
+.friend-list-item{
+    margin-left: 5em;
+    text-decoration: none;
+    color: #111222;
+}
+.remove-friend{
+    margin-left: 10em;
+    font-size: 14px;
+    
+}
+.block-friend {
+    margin-left: 2em;
+    font-size: 14px;
+}
+.network-display{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.footer{
+    display:block;
+    clear: both;
+    padding: 0.01em 16px;
+    background-color: #28d !important;
+    color: #000 !important;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+}
