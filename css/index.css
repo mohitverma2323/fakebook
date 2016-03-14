@@ -52,7 +52,7 @@ body {
 }
 
 .register input[type="submit"] {
-  background: #EB8921;
+  background: #33cccc;
   border-color: transparent;
   color: #fff;
   cursor: pointer;
@@ -70,7 +70,7 @@ body {
 .container {
     position: relative;
     padding: 0.01em 16px;
-    background-color: #28d !important;
+    background-color: #33cccc !important;
     color: #000 !important;
     height: 100px;
     top: 0px;
@@ -92,10 +92,10 @@ body {
 
 
 .dropbtn {
-    background-color: #28d;
+    background-color: #33cccc;
     color: white;
     padding: 16px;
-    font-size: 16px;s
+    
     border: none;
     cursor: pointer;
     
@@ -104,9 +104,9 @@ body {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: absolute;
-    top:20px;
+    top: 30px;
     display: inline-block;
-    right: 50px;
+    right: 40px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -115,7 +115,7 @@ body {
     position: fixed;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* Links inside the dropdown */
@@ -139,71 +139,7 @@ body {
     background-color: #3e8e41;
 }
 
- /*.menu-wrap {
-    position: absolute;
-    top: 20px;
-    right: 0px;
 
-}
- 
-
- .menu li {
-    
-    list-style:none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
- 
-.menu a {
-    color: #111;
-}
-
-.menu > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-    box-shadow: 25px;
-}
- .menu > ul > .current-item > a {
-    background:#2e2728;
-}
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-    
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background: #28d;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {   
-    background: burlywood;
-}
-*/
 .friend-panel {
     
   width: 600px;
@@ -254,15 +190,15 @@ body {
     font-size: 14px;
 }
 
-/*
+
 .network-display{
     position: relative;
     top: 50px;
-    left: 50px;
+    margin-left: 50px;
     font-size: 30px;
     text-shadow: 5px;
-}
-} */  
+ }
+   
 
 .footer{
     position: fixed;
@@ -273,6 +209,6 @@ body {
     height: 50px ;
     bottom: 0px;
     padding: 15px;
-    background-color:#2E8B57;
+    background-color: #99ccff;
  }
 
