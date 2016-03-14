@@ -5,6 +5,7 @@ body {
     
     font-family: 'Open Sans', sans-serif;
     margin : 0px;
+
 }
 
 .register {
@@ -68,8 +69,6 @@ body {
 
 .container {
     position: relative;
-    width: 100%;
-    clear: both;
     padding: 0.01em 16px;
     background-color: #28d !important;
     color: #000 !important;
@@ -85,6 +84,7 @@ body {
     font-size: 20px;
     text-decoration: none;
     left: 60px;
+
 }
 
 .home:hover{
@@ -94,19 +94,17 @@ body {
     display:block;
     clear:both;
 }
+
 .menu-wrap {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 0px;
+
 }
  
-.menu {
+
+ .menu li {
     
-    margin:0px auto;
-}
- 
-.menu li {
-    margin:0px;
     list-style:none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -114,6 +112,7 @@ body {
 .menu a {
     color: #111;
 }
+
 .menu > ul > li {
     float:left;
     display:inline-block;
@@ -127,8 +126,7 @@ body {
     box-shadow: 25px;
 }
  .menu > ul > .current-item > a {
-    /*background:#2e2728;*/
-    background: burlywood;
+    background:#2e2728;
 }
 .menu li:hover .sub-menu {
     z-index:1;
@@ -227,6 +225,6 @@ body {
     height: 50px ;
     bottom: 0px;
     padding: 15px;
-    background-color:#3CB371;
+    background-color:#2E8B57;
 }
 
