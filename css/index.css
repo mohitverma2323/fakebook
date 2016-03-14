@@ -8,6 +8,8 @@ body {
 
 }
 
+/* registration dialog box */
+
 .register {
   width: 600px;
   margin: 16px auto;
@@ -67,6 +69,8 @@ body {
   border-color: #05a;
 }
 
+
+/*nav bar container*/
 .container {
     position: relative;
     padding: 0.01em 16px;
@@ -75,6 +79,7 @@ body {
     height: 100px;
     top: 0px;
   }
+
 
 .home {
     display: block;
@@ -90,7 +95,7 @@ body {
    color: #111;
 }
 
-
+ 
 .dropbtn {
     background-color: #33cccc;
     color: white;
@@ -140,6 +145,8 @@ body {
 }
 
 
+/*container to show list of friends */
+
 .friend-panel {
     
   width: 600px;
@@ -152,6 +159,8 @@ body {
   max-height: 231px;
 }
 
+
+/* Header Panel for friends container */
 .friends-header {
   background: #28d;
   padding: 20px;
@@ -170,26 +179,20 @@ body {
   
 }
 
+
 .friends-list{
    list-style-type: decimal;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin-left: 3em;
 }
+
 .friend-list-item{
     margin-left: 5em;
     text-decoration: none;
     color: #111222;
 }
-.remove-friend{
-    margin-left: 10em;
-    font-size: 14px;
-    
-}
-.block-friend {
-    margin-left: 2em;
-    font-size: 14px;
-}
 
+/* title for user network area */
 
 .network-display{
     position: relative;
@@ -198,8 +201,18 @@ body {
     font-size: 30px;
     text-shadow: 5px;
  }
-   
 
+ .remove-friend{
+    margin-left: 10em;
+    font-size: 14px;
+    
+}
+.block-friend {
+    margin-left: 2em;
+    font-size: 14px;
+}
+   
+/* footer class for sticky footer */
 .footer{
     position: fixed;
     text-align: center ;
@@ -209,6 +222,6 @@ body {
     height: 50px ;
     bottom: 0px;
     padding: 15px;
-    background-color: #99ccff;
+    background-color: #33cccc;
  }
 
