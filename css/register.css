@@ -38,28 +38,26 @@ body {
   font-size: 0.95em;
 }
 
-.register input[type="email"],
-.register input[type="text"] {
+.register input {
   background: #fff;
   border-color: #bbb;
   color: #555;
 }
 
 /* Text fields' focus effect */
-.register input[type="email"]:focus,
-.register input[type="text"]:focus {
+.register input:focus {
   border-color: #888;
 }
 
 .register input[type="submit"] {
-  background: #28d;
+  background: #EB8921;
   border-color: transparent;
   color: #fff;
   cursor: pointer;
 }
 
 .register input[type="submit"]:hover {
-  background: #17c;
+  background: #2E8B57;
 }
 
 /* Buttons' focus effect */
